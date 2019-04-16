@@ -1,0 +1,8 @@
+- test:
+  nodename: test
+  hostname: test.test
+  osArch: amd64
+  osFamily: unix
+  osName: Linux
+  username: juuw
+~                           

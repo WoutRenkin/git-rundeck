@@ -1,0 +1,23 @@
+- defaultTab: summary
+  description: ''
+  executionEnabled: true
+  id: 4e31a611-9663-4421-a85e-36a0494e4e6c
+  loglevel: INFO
+  name: test1
+  nodeFilterEditable: true
+  nodefilters:
+    dispatch:
+      excludePrecedence: true
+      keepgoing: false
+      rankOrder: ascending
+      successOnEmptyNodeFilter: false
+      threadcount: '1'
+    filter: 'name: test'
+  nodesSelectedByDefault: true
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo "systemctl restart httpd because there is no apache server running!"
+    keepgoing: false
+    strategy: node-first
+  uuid: 4e31a611-9663-4421-a85e-36a0494e4e6c

@@ -1,0 +1,23 @@
+- defaultTab: summary
+  description: ''
+  executionEnabled: true
+  id: bbefa680-7510-4836-8456-4a2629f30594
+  loglevel: INFO
+  name: test2
+  nodeFilterEditable: true
+  nodefilters:
+    dispatch:
+      excludePrecedence: true
+      keepgoing: false
+      rankOrder: ascending
+      successOnEmptyNodeFilter: false
+      threadcount: '1'
+    filter: 'name: test2'
+  nodesSelectedByDefault: true
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo "systemctl restart rabbitmq-server"
+    keepgoing: false
+    strategy: node-first
+  uuid: bbefa680-7510-4836-8456-4a2629f30594
