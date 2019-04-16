@@ -9,7 +9,15 @@
 - test2:
   nodename: testje
   hostname: test.testje
-  osAtch: amd64
+  osArch: amd64
   osFamily: unix
   osName: Linux
-  username: Lool                           
+  username: Lool
+
+- test3:
+  nodename: test3
+  hostname: testje3lel.lel
+  osArch: amd64
+  osFamily: unix
+  osName: Linux
+  username: Loop                          
