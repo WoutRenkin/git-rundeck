@@ -5,4 +5,11 @@
   osFamily: unix
   osName: Linux
   username: juuw
-~                           
+
+- test2:
+  nodename: testje
+  hostname: test.testje
+  osAtch: amd64
+  osFamily: unix
+  osName: Linux
+  username: Lool                           
